@@ -9,7 +9,7 @@ const Whythisproperty = () => {
 
   const slides = [
   {
-    image: "src/assets/img/img 4.jpg",
+    image: "public/img/img 4.jpg",
     head: "EVENT",
     heading: "YOU SHOP. WE DELIVER.",
     paragraph:
@@ -17,7 +17,7 @@ const Whythisproperty = () => {
   },
 
   {
-    image: "src/assets/img/img 1.jpg",
+    image: "public/img/img 1.jpg",
     head: "OFFER",
     heading: "SHOP.EARN.FLY",
     paragraph:

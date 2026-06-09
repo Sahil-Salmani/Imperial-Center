@@ -4,7 +4,7 @@ const Entertainment = () => {
 
   const underwater = [
     {
-      image: "src/assets/img/underwater.jpg",
+      image: "public/img/underwater.jpg",
       head: "ENTERTAIN",
       heading: "Imperial Aquarium & Underwater Zoo",
       paragraph:

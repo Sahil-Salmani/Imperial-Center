@@ -5,21 +5,21 @@ import { Autoplay, Navigation } from 'swiper/modules'
 const Brands = () => {
 
   const Brandslides = [
-    { image: "src/assets/brands/images 1.png" },
-    { image: "src/assets/brands/images 2.jpeg" },
-    { image: "src/assets/brands/images 3.jpeg" },
-    { image: "src/assets/brands/images 4.jpg" },
-    { image: "src/assets/brands/images 5.jpg" },
-    { image: "src/assets/brands/images 6.png" },
-    { image: "src/assets/brands/images 7.jpg" },
-    { image: "src/assets/brands/images 8.jpeg" },
-    { image: "src/assets/brands/images 9.jpeg" },
-    { image: "src/assets/brands/images 10.png" },
-    { image: "src/assets/brands/images 11.jpeg" },
-    { image: "src/assets/brands/images 12.jpeg" },
-    { image: "src/assets/brands/images 13.jpg" },
-    { image: "src/assets/brands/images 14.jpg" },
-    { image: "src/assets/brands/images 15.png" }
+    { image: "public/brands/images 1.png" },
+    { image: "public/brands/images 2.jpeg" },
+    { image: "public/brands/images 3.jpeg" },
+    { image: "public/brands/images 4.jpg" },
+    { image: "public/brands/images 5.jpg" },
+    { image: "public/brands/images 6.png" },
+    { image: "public/brands/images 7.jpg" },
+    { image: "public/brands/images 8.jpeg" },
+    { image: "public/brands/images 9.jpeg" },
+    { image: "public/brands/images 10.png" },
+    { image: "public/brands/images 11.jpeg" },
+    { image: "public/brands/images 12.jpeg" },
+    { image: "public/brands/images 13.jpg" },
+    { image: "public/brands/images 14.jpg" },
+    { image: "public/brands/images 15.png" }
   ]
 
   return (

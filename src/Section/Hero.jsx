@@ -115,7 +115,7 @@ const Hero = () => {
             onTimeUpdate={handleTimeUpdate}
            className="w-full h-[40vh] md:h-[70vh] rounded-2xl object-cover cursor-pointer"
           >
-            <source src="src/assets/video/video.mp4" />
+            <source src="public/video/video.mp4" />
           </video>
 
          <button
