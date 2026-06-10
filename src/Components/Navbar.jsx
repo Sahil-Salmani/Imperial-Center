@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className='max-w-7xl mx-auto h-20 flex items-center justify-between px-6'>
 
           {/* Logo */}
-          <div className='cursor-pointer z-50'>
+          <a href="#Hero" className='cursor-pointer z-50'>
 
             <h1 className='text-2xl font-semibold tracking-wide'>
 
@@ -22,14 +22,14 @@ const Navbar = () => {
 
             </h1>
 
-          </div>
+          </a>
 
           {/* Desktop Menu */}
           <ul className='hidden md:flex items-center gap-12 text-[15px] font-medium tracking-wide'>
 
             <li>
               <a
-                href=""
+                href="#Brands"
                 className="relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
               >
                 Shopping
@@ -38,7 +38,7 @@ const Navbar = () => {
 
             <li>
               <a
-                href=""
+                href="#Foods"
                 className="relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
               >
                 Food + Drink
@@ -47,7 +47,7 @@ const Navbar = () => {
 
             <li>
               <a
-                href=""
+                href="#Entertainment"
                 className="relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
               >
                 Entertainment
@@ -56,7 +56,7 @@ const Navbar = () => {
 
             <li>
               <a
-                href=""
+                href="#Whythisproperty"
                 className="relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
               >
                 Plan Visit
@@ -65,7 +65,7 @@ const Navbar = () => {
 
             <li>
               <a
-                href=""
+                href="#Opportunities"
                 className="relative pb-2 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
               >
                 Services
@@ -102,15 +102,15 @@ const Navbar = () => {
 
           <ul className='flex flex-col items-center gap-10 text-xl'>
 
-            <li><a href="">Shopping</a></li>
+            <li><a href="#Brands">Shopping</a></li>
 
-            <li><a href="">Food + Drink</a></li>
+            <li><a href="#Foods">Food + Drink</a></li>
 
-            <li><a href="">Entertainment</a></li>
+            <li><a href="#Entertainment">Entertainment</a></li>
 
-            <li><a href="">Plan Visit</a></li>
+            <li><a href="#Whythisproperty">Plan Visit</a></li>
 
-            <li><a href="">Services</a></li>
+            <li><a href="#Opportunities">Services</a></li>
 
             <button className='border border-white px-6 py-3 rounded-full mt-6 hover:bg-white hover:text-black transition'>
 

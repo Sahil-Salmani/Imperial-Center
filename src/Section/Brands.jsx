@@ -24,7 +24,7 @@ const Brands = () => {
 
   return (
 
-    <section className='w-full py-16 bg-white overflow-hidden'>
+    <section id='Brands' className='w-full py-16 bg-white overflow-hidden'>
 
       {/* Heading */}
       <div className='flex flex-col items-center text-center mb-14 px-6'>

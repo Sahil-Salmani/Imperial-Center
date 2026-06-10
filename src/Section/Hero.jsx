@@ -82,7 +82,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="bg-gray-100 p-4 md:p-10">
+    <section id='Hero' className="bg-gray-100 p-4 md:p-10">
      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10 rounded-3xl bg-violet-100 p-6 md:p-10">
         <div className="w-full lg:w-1/2">
           <h1 className="text-4xl md:text-6xl font-bold mb-10 md:mb-14 animate-fadeUp">

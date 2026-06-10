@@ -26,7 +26,7 @@ const Whythisproperty = () => {
 ]
 
   return (
-    <section className="p-4 md:p-10 bg-gray-100">
+    <section id='Whythisproperty' className="p-4 md:p-10 bg-gray-100">
 
       <div className="max-w-7xl mx-auto rounded-3xl overflow-hidden">
 

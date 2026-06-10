@@ -4,7 +4,7 @@ const Foods = () => {
 
   return (
 
-    <section className='flex flex-col lg:flex-row gap-6 p-6 md:p-10 bg-gray-100'>
+    <section id='Foods' className='flex flex-col lg:flex-row gap-6 p-6 md:p-10 bg-gray-100'>
 
       {/* First Card */}
       <div className='relative w-full lg:w-1/2 h-[50vh] md:h-[70vh] overflow-hidden rounded-3xl'>

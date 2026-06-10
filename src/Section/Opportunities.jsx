@@ -61,7 +61,7 @@ const opportunitiesData = [
 
 const Opportunities = () => {
   return (
-    <section className="w-full bg-black text-white mb-5 py-6 px-4 md:px-10">
+    <section id='Opportunities' className="w-full bg-black text-white mb-5 py-6 px-4 md:px-10">
       
       {/* Heading */}
       <motion.div

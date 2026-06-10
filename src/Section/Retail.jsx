@@ -4,7 +4,7 @@ const Retail = () => {
 
   return (
 
-    <section className='flex flex-col lg:flex-row items-center gap-10 lg:gap-16 p-6 md:p-10 bg-gray-100'>
+    <section id='Retail' className='flex flex-col lg:flex-row items-center gap-10 lg:gap-16 p-6 md:p-10 bg-gray-100'>
 
       {/* Image */}
       <div className='w-full lg:w-1/2'>

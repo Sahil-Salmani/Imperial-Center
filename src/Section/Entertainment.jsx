@@ -14,7 +14,7 @@ const Entertainment = () => {
 
   return (
 
-    <section className='w-full relative overflow-hidden'>
+    <section id='Entertainment' className='w-full relative overflow-hidden'>
 
       <img
         className='w-full h-[60vh] md:h-[75vh] object-cover'
