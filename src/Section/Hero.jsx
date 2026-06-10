@@ -12,10 +12,14 @@ const Hero = () => {
     const [wordIndex, setWordIndex] = useState(0)
     
     const words = [
+      " 120M+ Annual Visitors",
+"350+ Global Brands",
+"40M International Tourists",
+"4.5 Avg Visitor Hours",
   "world-class entertainment",
   "luxury experiences",
   "premium lifestyle",
-  "modern shopping"
+  "modern shopping",
 ]
     useEffect(() => {
 

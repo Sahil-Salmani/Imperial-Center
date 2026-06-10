@@ -9,6 +9,7 @@ import Retail from './Section/Retail'
 import Brands from './Section/Brands'
 import Foods from './Section/Foods'
 import Footer from './Section/Footer'
+import Opportunities from './Section/Opportunities'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
     <Retail/>
     <Brands/>
     <Foods/>
+    <Opportunities/>
     <Footer/>
     </>
   )
