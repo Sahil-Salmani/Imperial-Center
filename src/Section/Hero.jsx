@@ -104,18 +104,18 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2 relative">
+        <div className="w-full lg:w-10/12 relative">
           <video
             ref={videoRef}
             autoPlay
             loop
             muted
-            playsInline
+            playsInline 
             onClick={handleVideoClick}
             onTimeUpdate={handleTimeUpdate}
            className="w-full h-[40vh] md:h-[70vh] rounded-2xl object-cover cursor-pointer"
           >
-            <source src="public/video/video.mp4" />
+            <source src="/video/video.mp4" type="video/mp4" />
           </video>
 
          <button

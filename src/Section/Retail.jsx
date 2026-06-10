@@ -11,7 +11,7 @@ const Retail = () => {
 
         <img
           className='w-full h-[50vh] md:h-[70vh] object-cover rounded-3xl'
-          src="public/img/luxury.jpg"
+          src="/img/luxury.jpg"
           alt=""
         />
 

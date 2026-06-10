@@ -11,7 +11,7 @@ const Foods = () => {
 
         <img
           className='w-full h-full object-cover hover:scale-105 transition duration-700'
-          src="public/foods/luxury food.jpg"
+          src="/foods/food-13.jpg"
           alt=""
         />
 
@@ -37,7 +37,7 @@ const Foods = () => {
 
         <img
           className='w-full h-full object-cover hover:scale-105 transition duration-700'
-          src="public/img/img 5.jpg"
+          src="/img/img-5.jpg"
           alt=""
         />
 
